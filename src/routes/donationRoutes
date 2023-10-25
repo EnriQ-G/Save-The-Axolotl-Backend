@@ -5,6 +5,6 @@ const{donate, getDonations, getAllDonations} = require('../controllers/donations
 
 router.post('/', protect, donate);
 router.get('/', getDonations);
-router.get('/donations', getAllDonations);
+router.get('/alldonations', getAllDonations);
 
 module.exports = router;
